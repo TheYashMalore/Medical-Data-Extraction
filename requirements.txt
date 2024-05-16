@@ -1,0 +1,12 @@
+pdf2image~=1.17.0
+pytesseract~=0.3.10
+opencv_python
+numpy~=1.26.4
+Pillow
+pytest~=8.2.0
+Fastapi~=0.111.0
+uvicorn~=0.29.0
+python-multipart
+opencv-python~=4.9.0.80
+streamlit~=1.34.0
+requests~=2.31.0
