@@ -9,12 +9,12 @@ https://github.com/abhijeetk597/medical-data-extraction/assets/138308825/3d5d90e
 ## Overview
 1. [What is OCR?](#a1)
 2. [Introduction to Project](#a2)
-3. [Project Execution Steps](#a3)
-4. [Code Walkthrough](#a4)
-5. [What did I learn through this project?](#a5)
-6. [Challenges Faced](#a6)
-7. [Directory Structure](#a7)
-8. [If you are cloning my repo?](#a8)
+3. [Why this project?](#a3)
+4. [Project Execution Steps](#a4)
+5. [Code Walkthrough](#a5)
+6. [What did I learn through this project?](#a6)
+7. [Directory Structure of Project](#a7)
+8. [Installation Instructions](#a8)
 
 ## <a name="a1">1. What is OCR?</a>
 OCR (Optical Character Recognition) converts scanned documents, PDFs, and images into editable text using machine learning and AI to improve accuracy.
@@ -44,13 +44,14 @@ In this project, we will work with two types of medical documents:
 Our goal is to extract important information from these documents efficiently.
 ![4.jpg](4.jpg)
 
-### Why this project?
+## <a name="a3">3. Why this project?</a>
+
 Despite my primary focus on Data Science, I chose this project for three main reasons:
 01. Integration of OCR with NLP: OCR is a crucial subset of Computer Vision and can be integrated into NLP projects, such as summarizing text using large language models (LLMs).
 02. Fundamental Python Skills: This project emphasizes essential Python programming concepts, including Object-Oriented Programming (OOP) and modular programming, both of which are industry standards.
 03. Backend Development with FastAPI: The project includes creating a backend server with FastAPI, known for its high performance and used by leading companies like Uber, Netflix, and Microsoft for their applications.
 
-## <a name="a3">3. Project Execution Steps</a>
+## <a name="a4">4. Project Execution Steps</a>
 - **Step 1:** Convert pdf to image using `pdf2image` library
 - **Step 2:** Preprocess the image (Apply `adaptive thresholding and binarization using OpenCV2`)
 - **Step 3:** Extracting text from image by passing it through `tesseract OCR engine`
@@ -59,14 +60,14 @@ Despite my primary focus on Data Science, I chose this project for three main re
 - **Step 6:** To create a Demo of `frontend UI using Streamlit` and connect it with our FastAPI server using Python Requests module.
 ![Project Execution Steps](8.jpg)
 
-## <a name="a4">4. Code Walkthrough</a>
+## <a name="a5">5. Code Walkthrough</a>
 Explore notebooks and source code of this project.
  - Notebook 1: [Prescription_parser](https://github.com/TheYashMalore/Medical-Data-Extraction/blob/master/Notebooks/01_prescription_parser.ipynb)
  - Notebook 2: [Patient_details_parser](https://github.com/TheYashMalore/Medical-Data-Extraction/blob/master/Notebooks/02_patient_details_parser.ipynb)
  - Backend: [Source code directory](https://github.com/TheYashMalore/Medical-Data-Extraction/tree/master/backend/src)
  - Frontend: [Streamlit app](https://github.com/TheYashMalore/Medical-Data-Extraction/blob/master/frontend/app.py)
 
-## <a name="a5">5. What did I learn through this project?</a>
+## <a name="a6">6. What did I learn through this project?</a>
 This project provided valuable insights:
 1. **Practical OCR Skills**: Learned to apply OCR techniques and image processing basics like thresholding with `OpenCV2` for real-world projects.
 2. **Python Mastery**: Improved Python proficiency through `OOP, code refactoring and modular programming`.
@@ -75,7 +76,7 @@ This project provided valuable insights:
 5. **API Testing with Postman**: Gained experience in API testing using `Postman` for robustness validation.
 6. **Frontend-Backend Integration**: Successfully connected a Streamlit frontend with a FastAPI backend server using `Python requests` module.
    
-## <a name="a6">7. Directory Structure of Project</a>
+## <a name="a7">7. Directory Structure of Project</a>
 ```
 medical-data-extraction
 │   .gitignore
@@ -118,7 +119,7 @@ medical-data-extraction
 └───reference
         tesseract_papar_by_google.pdf
 ```
-## <a name="a7">7. Installation Instructions</a>
+## <a name="a8">8. Installation Instructions</a>
 - Install all dependancies from `requirements.txt`
 - For `pdf2image` you need to [download `poppler`](https://github.com/belval/pdf2image?tab=readme-ov-file#how-to-install)
 - Install Tesseract OCR Engine in your PC
