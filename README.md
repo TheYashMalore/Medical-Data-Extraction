@@ -4,8 +4,7 @@ Also this project involved creation of a backend server which will process data 
 
 ## Demo
 
-https://github.com/abhijeetk597/medical-data-extraction/assets/138308825/3d5d90e8-2858-4831-b1d5-97a3874f256c
-https://github.com/TheYashMalore/Medical-Data-Extraction/blob/master/medical_data_extraction.mp4
+https://github.com/TheYashMalore/Medical-Data-Extraction/assets/119494643/4e7f5887-775a-4887-93b3-83db282b72de
 
 ## Overview
 1. [What is OCR?](#a1)
